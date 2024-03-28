@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1711606529 source:c:\users\vuyo\downloads\calculator\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<algorithm>
+
