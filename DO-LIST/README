@@ -1,0 +1,36 @@
+Title: Simple To-Do List Management Program
+
+Description:
+This C++ program is a simple to-do list management system that allows users to add tasks, view tasks, and delete tasks from a list. It provides a menu-driven interface for easy interaction.
+
+Features:
+
+Add A New Task: Users can add new tasks to the to-do list. The program ensures that the task list does not exceed the maximum capacity.
+View The Tasks: Users can view all the tasks currently present in the list.
+Delete Task: Users can delete a specific task from the list by entering its corresponding index.
+Instructions for Use:
+
+Compilation: Compile the program using a C++ compiler. For example, you can use g++ on Unix-like systems or MinGW on Windows.
+
+Copy code
+g++ -o todo_list todo_list.cpp
+Execution: Run the compiled executable.
+
+bash
+Copy code
+./todo_list
+Menu Navigation: Follow the on-screen menu to perform desired operations.
+
+Enter 1 to add a new task.
+Enter 2 to view the tasks.
+Enter 3 to delete a task.
+Enter 0 to end the program.
+Dependencies:
+
+This program utilizes the iostream and string libraries from the C++ Standard Library.
+Additional Notes:
+
+The program ensures robust input handling and includes necessary error messages for invalid user input.
+It clears the input buffer appropriately to prevent unexpected behavior.
+The task list has a maximum capacity of 10 tasks, ensuring memory efficiency.
+Deleting a task adjusts the task count accordingly, maintaining the integrity of the task list.
