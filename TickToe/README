@@ -1,0 +1,39 @@
+Title: Tic Tac Toe Game
+
+Description:
+This C++ program implements a simple command-line version of the classic Tic Tac Toe game. Two players, 'X' and 'O', take turns marking spaces in a 3x3 grid. The first player to form a horizontal, vertical, or diagonal line of their symbol wins the game. The program checks for a winner after each move and displays the winning player when the game ends.
+
+Features:
+
+Game Grid: The program displays a 3x3 grid representing the Tic Tac Toe board.
+Player Input: Players input the number of the field they want to mark.
+Winning Condition: The program checks for winning combinations after each move to determine the winner.
+Player Turn: Players alternate turns between 'X' and 'O'.
+Game Outcome: When a player wins, the program displays the winning player ('X' or 'O'). If the game ends in a tie, it notifies the players accordingly.
+Instructions for Use:
+
+Compilation: Compile the program using a C++ compiler. For example, you can use g++ on Unix-like systems or MinGW on Windows.
+
+Copy code
+g++ -o tic_tac_toe tic_tac_toe.cpp
+Execution: Run the compiled executable.
+
+bash
+Copy code
+./tic_tac_toe
+Gameplay: Follow the instructions displayed on the screen to play the Tic Tac Toe game.
+
+The game starts with player 'X'.
+Players take turns entering the number of the field they want to mark.
+The game checks for a winner after each move.
+If a player forms a winning combination, their symbol ('X' or 'O') is displayed as the winner.
+If all fields are filled without a winner, the game ends in a tie.
+Dependencies:
+
+This program only requires the iostream library from the C++ Standard Library.
+Additional Notes:
+
+The program utilizes a 3x3 character array to represent the game grid.
+It clears the screen before displaying the game grid to provide a clean interface.
+After each move, the program checks for winning combinations for both players ('X' and 'O').
+The game continues until a player wins or all fields are filled.
