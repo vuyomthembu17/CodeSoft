@@ -1,0 +1,39 @@
+Title: Vuyo's Guessing Game
+
+Description:
+This C++ program is a simple guessing game where the player needs to guess a randomly generated number between 1 and 100. The player is given 5 chances to guess the correct number. After each guess, the program provides feedback indicating whether the guess was too high or too low. If the player correctly guesses the number within the given chances, they win the game; otherwise, they lose, and the correct number is revealed.
+
+Features:
+
+Random Number Generation: The program generates a random number between 1 and 100 for the player to guess.
+Limited Chances: The player is provided with 5 chances to guess the correct number.
+User Input Handling: The program accepts user input and provides appropriate feedback based on the guess.
+Feedback: After each guess, the program informs the player whether the guess was too high or too low.
+Game Outcome: If the player guesses the correct number within the given chances, they win the game; otherwise, they lose, and the correct number is revealed.
+Instructions for Use:
+
+Compilation: Compile the program using a C++ compiler. For example, you can use g++ on Unix-like systems or MinGW on Windows.
+
+Copy code
+g++ -o guessing_game guessing_game.cpp
+Execution: Run the compiled executable.
+
+bash
+Copy code
+./guessing_game
+Gameplay: Follow the instructions displayed on the screen to play the guessing game.
+
+You have to guess the number between 1 and 100.
+You have 5 chances to guess the right number.
+Enter your guess when prompted.
+After each guess, the program will inform you whether your guess was too high or too low.
+If you guess the number correctly, you win the game.
+If you exhaust all your chances without guessing the correct number, you lose, and the correct number is revealed.
+Dependencies:
+
+This program utilizes the iostream, cstdlib, and ctime libraries from the C++ Standard Library.
+Additional Notes:
+
+The program seeds the random number generator using the current time to ensure different random numbers on each run.
+It provides clear instructions and feedback to the player throughout the game.
+The game loop iterates for a maximum of 5 chances or until the player guesses the correct number.
