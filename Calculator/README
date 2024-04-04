@@ -1,0 +1,36 @@
+Title: Simple Calculator
+
+Description:
+This C++ program implements a simple command-line calculator that evaluates arithmetic expressions. Users can input mathematical expressions containing addition, subtraction, multiplication, division, and modulus operations. The program parses the input expression, evaluates it, and displays the result. The user can input multiple expressions in succession until they choose to quit.
+
+Features:
+
+Arithmetic Operations: The calculator supports addition (+), subtraction (-), multiplication (*), division (/), and modulus (%) operations.
+Input Handling: Users can input mathematical expressions as strings, which the program evaluates.
+Error Handling: The program provides error handling for invalid expressions, such as division by zero or malformed expressions.
+Multiple Expressions: Users can input multiple expressions in succession until they choose to quit by entering 'q'.
+Instructions for Use:
+
+Compilation: Compile the program using a C++ compiler. For example, you can use g++ on Unix-like systems or MinGW on Windows.
+
+Copy code
+g++ -o calculator calculator.cpp
+Execution: Run the compiled executable.
+
+bash
+Copy code
+./calculator
+Usage: Follow the instructions displayed on the screen to input mathematical expressions.
+
+Enter a mathematical expression when prompted.
+Press Enter to evaluate the expression.
+The result of the expression will be displayed.
+Enter 'q' to quit the program.
+Dependencies:
+
+This program requires the iostream, cmath, and string libraries from the C++ Standard Library.
+Additional Notes:
+
+The program removes all whitespaces from the input expression for parsing simplicity.
+It provides robust error handling for invalid expressions, such as attempting to divide by zero.
+Expressions are evaluated using standard arithmetic rules, following the order of operations (PEMDAS/BODMAS).
